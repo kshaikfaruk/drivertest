@@ -16,6 +16,7 @@ public class Handilepopupmenurightclickmenu {
 	WebElement img=driver.findElement(By.xpath("//img[@onclick='return dm_popup(1, 2000, event);']"));
 	Actions action= new Actions(driver);
 	action.contextClick(img).perform();
+	 System.out.println("commit");
 
 	}
 
